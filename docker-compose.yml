@@ -1,0 +1,22 @@
+---
+version: "3.9"
+services:
+  node1:
+    build: ./build/
+    command: receptor -c /etc/receptor/receptor.conf
+    volumes:
+      - ./configs/node1-receptor.conf:/etc/receptor/receptor.conf
+    networks:
+      - receptor-network
+
+  node2:
+    build: ./build/
+    command: receptor -c /etc/receptor/receptor.conf
+    volumes:
+      - ./configs/node2-receptor.conf:/etc/receptor/receptor.conf
+    networks:
+      - receptor-network
+
+networks:
+  receptor-network:
+    driver: bridge
