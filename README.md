@@ -15,6 +15,8 @@ Receptor Commands
 # receptorctl status
 # receptorctl ping node2
 # receptorctl traceroute node2
+# receptorctl work submit hello --node node2 -n 
+# receptorctl work list --node node2
 ```
 
 Destroy lab:
