@@ -1,1 +1,1 @@
-From quay.io/project-receptor/receptor
+From quay.io/project-receptor/receptor:latest
