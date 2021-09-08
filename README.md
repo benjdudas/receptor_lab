@@ -5,7 +5,7 @@ Build lab:
 # docker-compose up -d
 ```
 
-Connect to node1:
+Connect to mgmt-node:
 ```
 # docker exec -it <container_id> /bin/bash
 ```
