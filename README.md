@@ -13,8 +13,8 @@ Connect to mgmt-node:
 Receptor Commands
 ```
 # receptorctl status
-# receptorctl ping node2
-# receptorctl traceroute node2
+# receptorctl ping iso-node
+# receptorctl traceroute iso-node
 # receptorctl work submit hello --node iso-node -n 
 # receptorctl work list --node iso-node
 ```
